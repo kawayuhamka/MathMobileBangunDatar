@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/baru"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mathaddict.mathmobilebangundatar.htklingkaran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:text="Luas Lingkaran"
+            android:textColor="@android:color/background_light"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:background="@android:color/background_light"
+             app:srcCompat="@drawable/htklingkaran"
+            android:layout_weight="0.13" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Jari-Jari (r) "
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/jarijari"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="number|numberDecimal" />
+
+        <Button
+            android:id="@+id/hitung"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Hitung luas" />
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="254dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="3dp"
+            android:ems="2"
+            android:text="Hasil"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="156dp"
+                android:layout_height="match_parent"
+                android:id="@+id/reset"
+                android:text="Reset"
+                />
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="menu utama" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

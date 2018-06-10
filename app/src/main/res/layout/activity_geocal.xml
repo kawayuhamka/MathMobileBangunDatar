@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baru"
+    android:orientation="vertical"
+        tools:context="mathaddict.mathmobilebangundatar.geocal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/luas"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/colorActivatedHighlight"
+                android:text="Luas" />
+
+            <Button
+                android:id="@+id/keliling"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="keliling" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif"
+            android:text="MENGHITUNG LUAS BANGUN DATAR"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/segitiga"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/segitigaklik" />
+
+            <ImageButton
+                android:id="@+id/layanglayang"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/layanglayangklik" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/trapesium"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/trapesiumklik" />
+
+            <ImageButton
+                android:id="@+id/lingkaran"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/lingkaranklik" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/jajargenjang"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/jajargenjangklik"
+                />
+
+            <ImageButton
+                android:id="@+id/persegipanjang"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/persegipanjangklik" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            android:weightSum="1">
+            <ImageButton
+                android:id="@+id/belahketupat"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/belahketupatklik" />
+            <ImageButton
+                android:id="@+id/persegi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="#0000"
+                app:srcCompat="@drawable/bujussangkarklik"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

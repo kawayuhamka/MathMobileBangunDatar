@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baru"
+    tools:context="mathaddict.mathmobilebangundatar.Materi">
+
+    <ImageButton
+        android:id="@+id/pendahuluan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:src="@drawable/pendahuluan" />
+
+    <ImageButton
+        android:id="@+id/segiempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pendahuluan"
+        android:layout_margin="50dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/isegiempat" />
+
+    <ImageButton
+        android:id="@+id/segitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/segiempat"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        android:src="@drawable/isegitiga" />
+</RelativeLayout>

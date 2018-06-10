@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mathaddict.mathmobilebangundatar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Bangun Datar Mobile"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".spalshscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Materi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".geocal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htkpersegi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htkpersegipanjang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htkjajargenjang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htklayanglayang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htktrapesium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htkbelahketupat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htksegitiga"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".htklingkaran"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pendahuluan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".segiempat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".segitiga"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HighestScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bukaquis"
+            android:screenOrientation="portrait" />
+        <activity android:name=".geocalkeliling" />
+        <activity android:name=".belahketupatkel" />
+        <activity android:name=".keljajargenjang" />
+        <activity android:name=".kellayanglayang" />
+        <activity android:name=".kellingkaran" />
+        <activity android:name=".kelpersegi" />
+        <activity android:name=".kelpersegipanjang" />
+        <activity android:name=".kelsegitiga" />
+        <activity android:name=".keltrapesium" />
+        <activity android:name=".kelbelahketupat" />
+        <activity android:name=".belahketupat" />
+        <activity android:name=".cobacoba"></activity>
+    </application>
+
+</manifest>
